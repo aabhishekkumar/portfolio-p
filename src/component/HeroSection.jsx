@@ -5,13 +5,13 @@ const HeroSection = () => {
   return (
 
     <div
-      className=" h-[700px] flex flex-col justify-center items-center sm:px-20 lg:px-32 py-32 gap-6 bg-cover bg-start bg-no-repeat text-white"
+      className=" h-[700px] flex flex-col justify-center items-center sm:px-20 lg:px-32 px-4 sm:py-32 gap-6 bg-cover bg-start bg-no-repeat text-white"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <h1 className="font-bold text-5xl text-center">
+      <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-center">
         Empower Your Team to Work <br /> Smarter
       </h1>
-      <p className="font-semibold text-2xl text-center text-gray-200">
+      <p className="font-semibold text-sm sm:text-xl lg:text-2xl text-center text-gray-200">
         Streamline collaboration, track progress, and boost productivity <br />— all in one intuitive platform
       </p>
 

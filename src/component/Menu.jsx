@@ -54,7 +54,7 @@ const Menu = () => {
       <h2 className="text-3xl font-bold text-center mb-8">Checkout our menu</h2>
 
       {/* Category Buttons */}
-      <div className="flex justify-center gap-4 mb-10">
+      <div className="flex flex-wrap justify-center gap-4 mb-10">
         {Object.keys(menuData).map((category) => (
           <button
             key={category}

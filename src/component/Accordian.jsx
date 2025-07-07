@@ -7,7 +7,7 @@ const Accordian = () => {
   return (
     <div className="p-10 max-w-xl mx-auto space-y-6">
       {/* Toggle Buttons */}
-      <div className="flex space-x-4">
+      <div className="flex flex-col sm:flex-row gap-4">
 
 
         <button

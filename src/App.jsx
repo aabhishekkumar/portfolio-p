@@ -5,17 +5,14 @@ import Accordian from './component/Accordian'
 import Menu from './component/Menu'
 import HeroSection from './component/HeroSection'
 
-
-
-
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <HeroSection/>
-      <Accordian/>
-      <Menu/>
-      <Footer/>
+      <Navbar />
+      <HeroSection />
+      <Accordian />
+      <Menu />
+      <Footer />
     </div>
   )
 }
